@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>轮播</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="window">
-    <div class="images" id=images>
-        <img src="./img/1.jpg" width=500 alt="">
-        <img src="./img/2.jpg" width=500 alt="">
-        <img src="./img/3.jpg" width=500 alt="">
+
+    <div class="window">
+        <div id="slides" class="images">
+            <img src="./img/1.jpg" width=500 alt="">
+            <img src="./img/2.jpg" width=500 alt="">
+            <img src="./img/3.jpg" width=500 alt="">
+            <img src="./img/4.jpg" width=500 alt="">
+            <img src="./img/5.jpg" width=500 alt="">
+        </div>
     </div>
+    <div class="container">
+        <div id="controls" >
+            <button id="previous">上一张</button>
+            <button id="next">下一张</button>
+        </div>
+        <div id=buttonWrapper class="buttons">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+        </div>
     </div>
     <script src="./jquery-3.3.1.min.js"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>
