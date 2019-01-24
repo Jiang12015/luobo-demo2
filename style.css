@@ -6,6 +6,7 @@
   height: 300px;
   margin: 20px auto;
   overflow: hidden;
+  position:relative;
 }
 .images{
   display: flex;
@@ -16,8 +17,24 @@
 }
 .container{
   text-align:center;
-  width: 130px;
+  width: 200px;
   height: 50px;
   overflow: hidden;
   margin: 0 auto;
 }
+
+.d1,.d2{
+  text-align: center;
+  font-size:50px;
+  cursor: pointer;
+  }
+  .d1{
+  position:absolute;
+  top:100px;
+  left:10px;
+  }
+  .d2{
+  position:absolute;
+  top:100px;
+  right:10px;
+  } 
